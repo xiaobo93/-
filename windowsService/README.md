@@ -16,7 +16,14 @@ sc delete 服务名
 
 [参考链接](https://blog.csdn.net/blade1080/article/details/82015323)
 
-******************************************
+******************************************  
+  
+# installService
+>安装一个win32的服务程序  
+服务安装之后，在注册表中的位置为：  
+[HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services]  
 
+  
+********************************************
 
 
