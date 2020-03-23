@@ -36,5 +36,13 @@ windows service跑起来之后，你可以选择Tools->Attach to Process 在Avai
 
   
 ********************************************
+将服务安装成“local_service"，如下图所示：   
+  
+![任务管理器](img/任务管理器.png)
 
-
+应该使用createService  + "NT AUTHORITY\\LocalService" .  
+  
+![代码](img/代码.png)  
+  
+在注册表中的表现是：**（使用.inf安装 application ,无法创建权限为”NT AUTHORITY\\LocalService“的服务）**
+![注册表](img/注册表.png)
